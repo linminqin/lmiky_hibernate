@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+
+body {
+	padding: 0px;
+	font-family: "宋体";
+}
+
+/*内容begin*/
+.container_menu {
+	width: 1200px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.container_content {
+	width: 1200px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 72px; 
+	background-color: #444444;
+}
+
+#container_footer {
+	min-height: 10px;
+}
+
+#content {
+		min-height: 700px;
+}
+
+#mainForm label, #mainForm input,  #mainForm div,  #mainForm span,  #mainForm select {
+	font-size: 12px !important;
+}
+
+#mainForm .form-table {
+	margin-top: 0px !important;
+}
+
+/*内容end*/
+
+/*字体begin*/
+.font_style1 {
+	color: #ffffff;
+	font-size: 12px;
+}
+.font_style2{
+	color: #FF5235;
+	font-size: 12px;
+}
+.font_style3 {
+	font-size: 14px;
+	color: #4B4B4B;
+	font-weight: bold;
+}
+/*字体end*/
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.border-radius {
+	border-radius : 4px;
+	-webkit-border-radius: 4px;
+}
+
+.mini{
+    width: 40px !important;
+}
+
+.small{
+    width: 70px !important;
+}
+
+.medium{
+    width: 130px !important;
+}
+
+.large {
+    width: 200px !important;
+}
+
+.larger {
+    width: 350px !important;
+}
+
+.full {
+    width: 100% !important;
+}
+
+.req {
+	color: #F54108;
+}
+
+.messageDiv {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.labelSpan-center {
+	text-align: center;
+	display: inline-block;
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- path不能用system -->
+<moduleGroups>
+	<moduleGroup name="系统配置" path="config">
+		<module name="用户管理" path="jdp/user/operator">
+		    <function name="查询" authorityCode="jdp_user_operator_load" sort="0"/>
+			<function name="添加" authorityCode="jdp_user_operator_add" sort="1"/>
+			<function name="修改" authorityCode="jdp_user_operator_modify" sort="2"/>
+			<function name="删除" authorityCode="jdp_user_operator_delete" sort="3"/>
+		</module>
+		<module name="角色管理" path="jdp/user/role">
+		    <function name="查询" authorityCode="jdp_user_role_load" sort="0"/>
+			<function name="添加" authorityCode="jdp_user_role_add" sort="1"/>
+			<function name="修改" authorityCode="jdp_user_role_modify" sort="2"/>
+			<function name="删除" authorityCode="jdp_user_role_delete" sort="3"/>
+		</module>
+		<module name="权限管理" path="jdp/authority">
+			<function name="授权" authorityCode="jdp_authority_authorize" sort="0"/>
+		</module>
+		<module name="地区管理" path="jdp/area">
+			<function name="管理" authorityCode="jdp_area_manage" sort="0"/>
+		</module>
+		<module name="日志查询" path="jdp/logger">
+			<function name="查看" authorityCode="jdp_logger_load" sort="0"/>
+		</module>
+	</moduleGroup>
+	<moduleGroup name="网络商城" path="mall">
+		<module name="商品管理" path="tiger/goods">
+		    <function name="查询" authorityCode="tiger_goods_load" sort="0"/>
+			<function name="添加" authorityCode="tiger_goods_add" sort="1"/>
+			<function name="修改" authorityCode="tiger_goods_modify" sort="2"/>
+			<function name="删除" authorityCode="tiger_goods_delete" sort="3"/>
+		</module>
+	</moduleGroup>
+	<moduleGroup name="信息管理" path="cms">
+		<module name="栏目管理" path="cms/directory">
+		    <function name="查询" authorityCode="cms_directory_load" sort="0"/>
+			<function name="添加" authorityCode="cms_directory_add" sort="1"/>
+			<function name="修改" authorityCode="cms_directory_modify" sort="2"/>
+			<function name="删除" authorityCode="cms_directory_delete" sort="3"/>
+		</module>
+		<module name="文章管理" path="cms/resource">
+		    <function name="查询" authorityCode="cms_resource_load" sort="0"/>
+			<function name="添加" authorityCode="cms_resource_add" sort="1"/>
+			<function name="修改" authorityCode="cms_resource_modify" sort="2"/>
+			<function name="发布" authorityCode="cms_resource_publish" sort="3"/>
+			<function name="删除" authorityCode="cms_resource_delete" sort="4"/>
+		</module>
+	</moduleGroup>
+	<moduleGroup name="抓取" path="capture">
+		<module name="抓取任务管理" path="capture/task">
+		    <function name="查询" authorityCode="capture_task_load" sort="0"/>
+			<function name="添加" authorityCode="capture_task_add" sort="1"/>
+			<function name="修改" authorityCode="capture_task_modify" sort="2"/>
+			<function name="删除" authorityCode="capture_task_delete" sort="3"/>
+		</module>
+	</moduleGroup>
+</moduleGroups>

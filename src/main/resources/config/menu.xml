@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+	<topmenu id="tiger" label="网上商城">
+		<leftmenu id="tiger" label="网上商城">
+			<submenu>
+				<id>tiger_goods_load</id>
+				<label>商品管理</label>
+				<url>tiger/goods/list.shtml</url>
+				<type>link</type>
+				<modulePath>tiger/goods</modulePath>
+				<authority>tiger_goods_load</authority>
+			</submenu>
+		</leftmenu>
+	</topmenu>
+	<topmenu id="capture" label="抓取">
+		<leftmenu id="capture" label="抓取">
+			<submenu>
+				<id>capture_task_load</id>
+				<label>抓取任务管理</label>
+				<url>capture/task/list.shtml</url>
+				<type>link</type>
+				<modulePath>capture/task</modulePath>
+				<authority>capture_task_load</authority>
+			</submenu>
+		</leftmenu>
+	</topmenu>
+	<topmenu id="cms" label="内容管理">
+		<leftmenu id="cms" label="内容管理">
+			<submenu>
+				<id>cms_directory_load</id>
+				<label>内容管理</label>
+				<url>cms/directory/loadPage.shtml</url>
+				<type>iframe</type>
+				<modulePath>cms/directory</modulePath>
+				<authority>cms_directory_load</authority>
+				<iframeurl>cms/directory/loadTree.shtml</iframeurl>
+			</submenu>
+		</leftmenu>
+	</topmenu>
+	<topmenu id="system" label="系统设置">
+		<leftmenu id="systemSetting" label="系统设置">
+			<submenu>
+				<id>jdp_user_operator_load</id>
+				<label>用户管理</label>
+				<url>operator/list.shtml</url>
+				<type>link</type>
+				<modulePath>jdp/user/operator</modulePath>
+				<authority>jdp_user_operator_load</authority>
+			</submenu>
+			<submenu>
+				<id>jdp_user_role_load</id>
+				<label>角色管理</label>
+				<url>role/list.shtml</url>
+				<type>link</type>
+				<modulePath>jdp/user/role</modulePath>
+				<authority>jdp_user_role_load</authority>
+			</submenu>
+			<submenu>
+				<id>jdp_user_operator_modifyPassword</id>
+				<label>修改密码</label>
+				<url>operator/toModifyPassword.shtml</url>
+				<type>dialog</type>
+				<modulePath>jdp/user/operator</modulePath>
+				<authority></authority>
+				<width>420</width>
+				<height>300</height>
+			</submenu>
+			<submenu>
+				<id>jdp_authority_load</id>
+				<label>权限管理</label>
+				<url>authority/load.shtml</url>
+				<type>dialog</type>
+				<modulePath>jdp/authority</modulePath>
+				<authority>jdp_authority_authorize</authority>
+			</submenu>
+			<submenu>
+				<id>jdp_area_load</id>
+				<label>地区管理</label>
+				<url>area/load.shtml</url>
+				<type>dialog</type>
+				<modulePath>jdp/area</modulePath>
+				<authority>jdp_area_manage</authority>
+				<width>800</width>
+				<height>510</height>
+			</submenu>
+			<submenu>
+				<id>jdp_logger_load</id>
+				<label>日志查询</label>
+				<url>logger/list.shtml</url>
+				<type>link</type>
+				<modulePath>jdp/logger</modulePath>
+				<authority>jdp_logger_load</authority>
+			</submenu>
+		</leftmenu>
+	</topmenu>
+</menus>

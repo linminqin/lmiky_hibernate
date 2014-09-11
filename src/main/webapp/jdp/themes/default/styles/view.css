@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+
+/*内容列表*/
+
+.listContent {
+	margin-top: 16px;
+}
+
+.listContent .simpleCheckbox {
+	width :20px;
+}
+
+.listContent .icon {
+	margin: 0px;
+}
+
+.listContent .list_index{
+	min-width :30px;
+}
+
+.listContent th {
+	text-align: center;
+	vertical-align: middle !important;
+	height: 30px !important;
+}
+
+.listContent td {
+	text-align: center;
+	font-size: 12px !important;
+	vertical-align: middle !important;
+	padding: 3px !important;
+	height: 30px !important;
+}
+
+.listContent  input[type="radio"], .listContent  input[type="checkbox"] {
+	margin: 0px;
+}
+
+.listContent .pageColumn {
+	background-color: #ffffff !important;
+}
+
+.listContent th a {
+	background-position: right;
+	background-repeat: no-repeat;
+	display: block;
+	text-decoration: none;
+	color: #666666 !important;
+}
+
+.listContent th.sortable a {
+    background-image: URL(../images/arrow_off.png) !important;
+}
+
+.listContent th.order-asc a {
+    background-image: URL(../images/arrow_up.png) !important;
+}
+
+.listContent th.order-desc a {
+    background-image: URL(../images/arrow_down.png) !important;
+}
+/*内容列表*/
+
+/*分页begin*/
+
+.dataTables_paginate .page-input {
+    font-size: 10px;
+    color: #333333;
+    width: 40px;
+    margin-bottom: 3px;
+}
+
+.dataTables_paginate .go, .dataTables_paginate page_index {
+    margin-bottom: 3px;
+}
+/*分页end*/

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+	<tlib-version>0.1</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>lresource</short-name>
+	<description>resource资源文件标签</description>
+	<tag>
+		<name>context</name>
+		<tag-class>com.lmiky.jdp.web.ui.taglib.ResourceContextTag
+		</tag-class>
+		<body-content>JSP</body-content><!-- 指tag之间的内容，由于没有处理body-content ，所以上面设为empty,如果是嵌套标签,或则是要在服务器端处理标签体的话,就是jsp了 -->
+		<attribute>
+			<name>key</name>
+			<required>true</required>	<!-- 是否必填属性 -->
+			<rtexprvalue>true</rtexprvalue>	<!-- 是否支持运行时表达式取值就是是否可以<%=%>或则是${}方式传值 -->
+		</attribute>
+	</tag>
+</taglib>
