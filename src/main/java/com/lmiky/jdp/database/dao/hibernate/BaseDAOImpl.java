@@ -28,6 +28,7 @@ import com.lmiky.jdp.database.pojo.BasePojo;
  * @author lmiky
  * @date 2013-4-15
  */
+@Repository("baseDAO")
 public class BaseDAOImpl implements BaseDAO {
 	private SessionFactory sessionFactory;
 
